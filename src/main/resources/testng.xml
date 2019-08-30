@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Registration Automation Test suite" >
+  
+  <listeners>
+  <listener class-name="com.facebooksignup.qa.extentReportListener.ExtentReporterNG" />
+   </listeners>
+  
+  <test name="Facebook Signup Test Cases" >
+    <classes>
+       <class name="com.facebooksignup.qa.testcases.SignupPageTest"/>
+    </classes>
+  </test>
+  
+  <!-- <test name="Regression" >
+    <classes>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+    </classes>
+  </test> -->
+  </suite>
